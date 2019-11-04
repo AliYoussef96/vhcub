@@ -70,5 +70,5 @@ Github allows you to classify your issues so that we know if it is a bug report,
 If you wish to contribute some changes to the code then you should submit a [pull request](https://github.com/AliYoussef96/BCAW-Tool/pulls)
 How to create a Pull Request? [documentation on pull requests](https://help.github.com/en/articles/about-pull-requests)
 
-
+## Citation
 
