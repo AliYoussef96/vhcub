@@ -30,7 +30,7 @@ install.packages("vhcub")
 
 ### Usage
 
-**Using vhcub to study the CUB of a virus, its host and the co-adaptation between them is straightforward.**
+Using vhcub to study the CUB of a virus, its host and the co-adaptation between them is straightforward.
 
 For example;
 
