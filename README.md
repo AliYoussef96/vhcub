@@ -4,14 +4,27 @@
  
 <img align="right" width="250" height="250" src="https://github.com/AliYoussef96/vhcub/blob/master/logo.png">
 
-
 vhcub is an R package to analyze the co-adaptation of codon usage between a virus and its host. 
+
+## Installation
 
 vhcub was developed using R and available on CRAN:
 
 ```R
 install.packages("vhcub")
 ```
+
+## The following measures are implemented in the package:
+
+* ENC, effective number of codons ([Novembre, 2002](https://www.ncbi.nlm.nih.gov/pubmed/12140252)).
+
+* SCUO, synonymous codon usage orderliness ([Wan et al., 2004](https://www.ncbi.nlm.nih.gov/pubmed/15222899)).
+
+* Codon Adaptation Index, CAI ([Sharp and Li, 1987](https://www.ncbi.nlm.nih.gov/pubmed/3547335)).
+
+* Relative  Codon Deoptimization Index, RCDI [(Puigbò et al, 2010)](https://bmcresnotes.biomedcentral.com/articles/10.1186/1756-0500-3-87).
+
+* Relative Synonymous Codon Usage, RSCU ([Sharp and Li, 1987](https://www.ncbi.nlm.nih.gov/pubmed/3547335)).
 
 **Using vhcub to study the CUB of a virus, its host and the co-adaptation between them is straightforward.**
 
@@ -37,4 +50,7 @@ SiD <- SiD.value(RSCU.host,RSCU.virus)
 rcdi.df <- RCDI.values(fasta.virus,fasta.host, enc.df.host)
 ```
 
-vhcub package aiming to cover a complete workflow of CUB viruses analysis and its co-evolution with their host. Hence, further versions of vhcub aiming to improve, add more CUB measures and plots as well as statistical analysis to study the CUB. Hence, **contributions to the software are welcome**
+vhcub package aiming to cover a complete workflow of CUB viruses analysis and its co-evolution with their host. Hence, further versions of vhcub aiming to improve, add more CUB measures and plots as well as statistical analysis to study the CUB. Hence, **contributions to the software are welcome**.
+
+
+
