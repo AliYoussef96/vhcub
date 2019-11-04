@@ -16,17 +16,17 @@ install.packages("vhcub")
 
 ### The following measures are implemented in the package:
 
-* ENC, effective number of codons ([Novembre, 2002](https://www.ncbi.nlm.nih.gov/pubmed/12140252)).
+* ENC, effective number of codons ([Novembre, 2002](https://www.ncbi.nlm.nih.gov/pubmed/12140252)),
 
-* SCUO, synonymous codon usage orderliness ([Wan et al., 2004](https://www.ncbi.nlm.nih.gov/pubmed/15222899)).
+* SCUO, synonymous codon usage orderliness ([Wan et al., 2004](https://www.ncbi.nlm.nih.gov/pubmed/15222899)),
 
-* Codon Adaptation Index, CAI ([Sharp and Li, 1987](https://www.ncbi.nlm.nih.gov/pubmed/3547335)).
+* Codon Adaptation Index, CAI ([Sharp and Li, 1987](https://www.ncbi.nlm.nih.gov/pubmed/3547335)),
 
-* Relative  Codon Deoptimization Index, RCDI [(Puigbò et al, 2010)](https://bmcresnotes.biomedcentral.com/articles/10.1186/1756-0500-3-87).
+* Relative  Codon Deoptimization Index, RCDI [(Puigbò et al, 2010)](https://bmcresnotes.biomedcentral.com/articles/10.1186/1756-0500-3-87),
 
-* Relative Synonymous Codon Usage, RSCU ([Sharp and Li, 1987](https://www.ncbi.nlm.nih.gov/pubmed/3547335)).
+* Relative Synonymous Codon Usage, RSCU ([Sharp and Li, 1987](https://www.ncbi.nlm.nih.gov/pubmed/3547335)),
 
-Also, it provides a statistical dinucleotide over- and underrepresentation with three different models.
+* Also, it provides a statistical dinucleotide over- and underrepresentation with three different models.
 
 ### Usage
 
