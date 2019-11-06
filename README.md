@@ -37,20 +37,41 @@ For example;
 coding sequences for both Escherichia virus T4 and its host Escherichia coli were downloaded in fasta format from the NCBI database.
 
 ```R
+# read virus and host fasta files
 fasta <- fasta.read("EscherichiavirusT4.fasta","Escherichiacoli.fasta")
 fasta.virus <- fasta[[1]]
 fasta.host <- fasta[[2]]
+
+# Calculate the GC overall all content as well as GC at first, second and third codon positions for the virus
 gc.df <- GC.content(fasta.virus)
+
+# Calculate zscore using syncodon model for statistical dinucleotide over- and underrepresentation
 syncodon <- dinuc.syncodon(fasta.virus,permutations=100)
+
+# Calculate zscore using base model for statistical dinucleotide over- and underrepresentation
 base <- dinuc.base(fasta.virus,permutations=100)
+
+# Calculate zscore using codon model for statistical dinucleotide over- and underrepresentation
 codon <- dinuc.codon(fasta.virus,permutations=100)
-enc.df.virus <- ENc.values(fasta.virus)
-enc.df.host <- ENc.values(fasta.host)
-SCUO.df <- SCUO.values(fasta.virus)
+
+# Calculate ENc values for the virus and its host
+enc.df.virus <- Enc.values(fasta.virus)
+enc.df.host <- Enc.values(fasta.host)
+
+# Calculate SCUO values for the virus
+scuo.df <- SCUO.values(fasta.virus)
+
+# Calculate CAI values for the virus using the host sequences as a reference genes set
 cai.df <- CAI.values(fasta.virus, enc.df.host, fasta.host, genetic.code="11")
-RSCU.virus <- RSCU.values(fasta.virus)
-RSCU.host <- RSCU.values(fasta.host)
+
+# Calculate RSCU values for the virus and its host
+rscu.virus <- RSCU.values(fasta.virus) 
+rscu.host <- RSCU.values(fasta.host)
+
+# Calculate SiD value for the virus 
 SiD <- SiD.value(RSCU.host,RSCU.virus)
+
+# Calculate RCDI values for the virus
 rcdi.df <- RCDI.values(fasta.virus,fasta.host, enc.df.host)
 ```
 
