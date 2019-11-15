@@ -1,5 +1,9 @@
 # vhcub
 
+[![CRAN checks](https://cranchecks.info/badges/summary/vhcub)](https://cran.r-project.org/web/checks/check_results_vhcub.html)
+[![](https://www.r-pkg.org/badges/version/vhcub?color=green)](https://cran.r-project.org/package=vhcub)
+[![](http://cranlogs.r-pkg.org/badges/last-week/vhcub?color=green)](https://cran.r-project.org/package=vhcub)
+
 ## Virus-Host Codon Usage Co-Adaptation Analysis
  
 <img align="right" width="250" height="250" src="https://github.com/AliYoussef96/vhcub/blob/master/logo2.png">
