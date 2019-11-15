@@ -55,8 +55,8 @@ base <- dinuc.base(fasta.virus,permutations=100)
 codon <- dinuc.codon(fasta.virus,permutations=100)
 
 # Calculate ENc values for the virus and its host
-enc.df.virus <- Enc.values(fasta.virus)
-enc.df.host <- Enc.values(fasta.host)
+enc.df.virus <- ENc.values(fasta.virus)
+enc.df.host <- ENc.values(fasta.host)
 
 # Calculate SCUO values for the virus
 scuo.df <- SCUO.values(fasta.virus)
