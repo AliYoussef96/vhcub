@@ -3,6 +3,7 @@
 [![](https://www.r-pkg.org/badges/version/vhcub?color=green)](https://cran.r-project.org/package=vhcub)
 [![](http://cranlogs.r-pkg.org/badges/last-week/vhcub?color=green)](https://cran.r-project.org/package=vhcub)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0de2a9a9a9e74f19ab64de2419bf1cc4)](https://www.codacy.com/manual/AliYoussef96/vhcub?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AliYoussef96/vhcub&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.com/AliYoussef96/vhcub.svg?branch=master)](https://travis-ci.com/AliYoussef96/vhcub)
 
 ## Virus-Host Codon Usage Co-Adaptation Analysis
  
