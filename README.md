@@ -69,7 +69,7 @@ rscu.virus <- RSCU.values(fasta.virus)
 rscu.host <- RSCU.values(fasta.host)
 
 # Calculate SiD value for the virus 
-SiD <- SiD.value(RSCU.host,RSCU.virus)
+SiD <- SiD.value(rscu.host,rscu.virus)
 
 # Calculate RCDI values for the virus
 rcdi.df <- RCDI.values(fasta.virus,fasta.host, enc.df.host)
