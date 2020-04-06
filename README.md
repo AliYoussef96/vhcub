@@ -21,6 +21,16 @@ vhcub was developed using R and available on CRAN:
 install.packages("vhcub")
 ```
 
+**If this installation instruction failed, please try:**
+
+```R
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("coRdon")
+
+install.packages("vhcub")
+```
+
 ### The following measures are implemented in the package
 
 * ENC, effective number of codons ([Novembre, 2002](https://www.ncbi.nlm.nih.gov/pubmed/12140252)),
