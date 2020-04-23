@@ -54,7 +54,7 @@
   freq.nt.all$G3C3 <- freq.nt.all$g / (freq.nt.all$g + freq.nt.all$c)
 
 
-  plot <- ggplot(freq.nt.all, aes(x = A3T3, y = G3C3)) + geom_point(size = 4) +
+  plot <- ggplot(freq.nt.all, aes(x = G3C3, y = A3T3)) + geom_point(size = 4) +
     ylab("A3/(A3 + T3)") + xlab("G3/(G3 + C3)") + ylim(0, 1) + xlim(0, 1) + theme_classic(base_size = 20) +
     geom_hline(yintercept = 0.5, color = "red", size = 1.2) + geom_vline(xintercept = 0.5, color = "red", size = 1.2)
 
