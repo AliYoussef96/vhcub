@@ -5,7 +5,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0de2a9a9a9e74f19ab64de2419bf1cc4)](https://www.codacy.com/manual/AliYoussef96/vhcub?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AliYoussef96/vhcub&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.com/AliYoussef96/vhcub.svg?branch=master)](https://travis-ci.com/AliYoussef96/vhcub)
 [![](https://img.shields.io/badge/doi-https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jprot.2019.103613-red)](https://doi.org/10.12688/f1000research.21763.1)
-[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/UniprotR?color=blue)](https://cran.r-project.org/package=vhcub) 
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/vhcub?color=blue)](https://cran.r-project.org/package=vhcub) 
 
 
 ## Virus-Host Codon Usage Co-Adaptation Analysis
