@@ -28,6 +28,8 @@ install.packages("vhcub")
 if (!requireNamespace("BiocManager", quietly=TRUE))
     install.packages("BiocManager")
 BiocManager::install("coRdon")
+BiocManager::install("Biostrings")
+
 
 install.packages("vhcub")
 ```
