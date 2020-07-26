@@ -108,4 +108,4 @@ How to create a Pull Request? [documentation on pull requests](https://help.gith
 
 ## Citation
 
-Anwar AM, Soudy M and Mohamed R. vhcub: Virus-host codon usage co-adaptation analysis [version 1; peer review: 2 approved]. F1000Research 2019, 8:2137 (https://doi.org/10.12688/f1000research.21763.1)
+Anwar AM, Soudy M and Mohamed R. vhcub: Virus-host codon usage co-adaptation analysis \[version 1; peer review: 2 approved]. F1000Research 2019, 8:2137 (https://doi.org/10.12688/f1000research.21763.1)
