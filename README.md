@@ -6,7 +6,7 @@
 [![Build Status](https://travis-ci.com/AliYoussef96/vhcub.svg?branch=master)](https://travis-ci.com/AliYoussef96/vhcub)
 [![](https://img.shields.io/badge/doi-https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jprot.2019.103613-red)](https://doi.org/10.12688/f1000research.21763.1)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/vhcub?color=blue)](https://cran.r-project.org/package=vhcub) 
-[![](https://badgen.net/badge/Citations/1/:color?icon=github)
+![](https://badgen.net/badge/Citations/1/:color?icon=github)
 
 ## Virus-Host Codon Usage Co-Adaptation Analysis
  
