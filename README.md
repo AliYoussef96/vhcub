@@ -16,13 +16,21 @@ vhcub is an R package to analyze the co-adaptation of codon usage between a viru
 
 ### Installation
 
-vhcub was developed using R and available on CRAN:
+1. Using devtools:
+
+```R
+if (!requireNamespace("devtools", quietly=TRUE)){install.packages("devtools")}
+devtools::install_github('AliYoussef96/vhcub')
+```
+
+
+2. vhcub was developed using R and available on CRAN:
 
 ```R
 install.packages("vhcub")
 ```
 
-**If this installation instruction failed, please try:**
+3. If 1 and 2 installations instruction failed, please try:
 
 ```R
 if (!requireNamespace("BiocManager", quietly=TRUE))
