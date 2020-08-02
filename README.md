@@ -33,7 +33,7 @@ devtools::install_github('AliYoussef96/vhcub')
 install.packages("vhcub")
 ```
 
-3. If 1 and 2 installations instruction failed, please try:
+3. If 1 and 2 installation instructions failed, please try:
 
 ```R
 if (!requireNamespace("BiocManager", quietly=TRUE))
