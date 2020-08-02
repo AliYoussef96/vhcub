@@ -21,7 +21,8 @@ vhcub is an R package to analyze the co-adaptation of codon usage between a viru
 1. Using devtools:
 
 ```R
-if (!requireNamespace("devtools", quietly=TRUE)){install.packages("devtools")}
+if (!requireNamespace("devtools", quietly=TRUE)){
+        install.packages("devtools")}
 devtools::install_github('AliYoussef96/vhcub')
 ```
 
