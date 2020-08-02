@@ -14,8 +14,6 @@
 
 vhcub is an R package to analyze the co-adaptation of codon usage between a virus and its host. 
 
-
-
 ### Installation
 
 1. Using devtools:
