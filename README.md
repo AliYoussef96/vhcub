@@ -102,7 +102,7 @@ Furthermore, vhcub uses ggplot to visualize two important plots named ENc-GC3 pl
 
 ```R
 ENc.GC3plot(enc.df.virus,gc.df)
-PR2.plot(fasta.virus)
+PR2.plot(fasta.virus) # PR2.plot function need fasta sequences inputs that just only include the four-fold codons
 ```
 ### Contribution Guidelines
 
